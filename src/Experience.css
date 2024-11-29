@@ -1,0 +1,124 @@
+/* General Experience Container */
+.experience-container {
+    padding: 40px;
+    background-color: #f4f7fc;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Title Styling */
+  .section-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1a73e8;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #ff5722;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Timeline Styling */
+  .timeline {
+    position: relative;
+    padding-left: 50px;
+    margin-left: 30px;
+  }
+  
+  .timeline-item {
+    margin-bottom: 50px;
+    position: relative;
+    padding-left: 40px;
+  }
+  
+  .timeline-marker {
+    position: absolute;
+    left: -15px;
+    width: 12px;
+    height: 12px;
+    background-color: #007bff;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timeline-content {
+    padding-left: 20px;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .company-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .role-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .role {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .company {
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .year {
+    font-size: 1rem;
+    color: #999;
+    margin-top: 5px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 15px;
+    color: #555;
+  }
+  
+
+  .gif-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    animation: slideInFromRight 2s ease-in-out;
+  }
+  
+  .animated-gif {
+    width: 500px;
+    height: 350px;
+    border-radius: 12px;
+    margin-left: 20rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
